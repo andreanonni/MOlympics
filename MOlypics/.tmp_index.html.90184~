@@ -1,0 +1,33 @@
+  <!DOCTYPE html> 
+<html> 
+  <head> 
+  <title>Andrea Nonni - Mobile Portfolio</title> 
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+ 
+  <div data-role="header">
+    <h1>Page Title</h1>
+		<a class="ui-btn-right jqm-home ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-a" data-direction="reverse" data-iconpos="notext" data-icon="home" href="index.html" title="Home" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Home</span><span class="ui-icon ui-icon-home ui-icon-shadow"></span></span></a>
+  </div><!-- /header -->
+
+  <div data-role="content"> 
+    <ul data-role="listview" data-theme="b">
+		  <li><a href="bio.html">Biography</a></li>
+		  <li><a href="work.html">WORK</a></li>
+		  <li><a href="contact.html">CONTACTS</a></li>
+</ul>
+   
+  </div><!-- /content -->
+
+  <div data-role="footer">
+    <h4>Page Footer</h4>
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
