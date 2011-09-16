@@ -1,0 +1,15 @@
+MOlympics : A Jquery Experiment for a Mobile Application feeding RSS from the Official Olympics Game Website
+
+THe section now createde are Blog and News
+The basic construction is based on PHP , XML , HTML and JQuery Mobile technologies
+
+Our recipe:
+
+Jquery Mobile is included on the index.php file that works like a framework .
+Header and Footer are included inside the main index.php file
+Main.php section is the one that actually contains a feed parser that read th exml and create a html output
+The HTML is rendered thorugh JQuery Mobile and served as application
+
+Still need obviosuly a lot of implementation
+
+More Documentation Will follow
